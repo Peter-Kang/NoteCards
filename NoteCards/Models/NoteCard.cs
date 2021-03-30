@@ -22,5 +22,10 @@ namespace NoteCards.Models
         /// </summary>
         public DateTime CreatedDate { get; set; }
 
+        /// <summary>
+        /// The date time that the object was last modifed
+        /// </summary>
+        public DateTime LastModifiedDate { get; set; }
+
     }
 }
